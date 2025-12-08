@@ -18,13 +18,12 @@ So I think whats the most common username for high profile accounts
 
 ![2](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExenYxNmU0NmVjYm9kZ2k3dDV1YnhxNnlxdDR1Y3o2M2k1OXBmeXF4YiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/a5viI92PAF89q/giphy.gif)
 
- admin...It has to be admin.So I try admin and add the most common sqli trick ever.. Commenting out the username(you must fill the password field as it is a required field)
+**admin** ... It has to be admin. So I try admin and add the most common sqli trick ever.. Commenting out the username(you must fill the password field as it is a required field)
  ```
- username: admin' --
+ username: admin'--
 password: anything
 
  ```
-``
 
 ![3](<images/Pasted image 20251208182704.png>)
 
@@ -39,7 +38,7 @@ When we check burpsuite , we get
 
 ![5](<images/Pasted image 20251208183619.png>)
 
-a 403 error meaning the login doesn't automatically attach a token to the users request when he's redirected to the dashboard.
+A 403 error❌ -- meaning the login doesn't automatically attach a token to the users request when he's redirected to the dashboard.
 
 So i retrace my steps back to the login page and capture the token on burpsuite.
 
@@ -56,15 +55,15 @@ Lets include it on our previous request to /dashboard
 
 ![7](<images/Pasted image 20251208183703.png>)
 
- We get a 200 OK . 
+ We get a 200 OK ☑️. 
  
- Request the response to browser (for those who don't know how don't worry . Just right click the response select Request in browser on the menu that pops up , in original session, copy the link and paste in your browser.)
+Request the response to browser (for those who don't know how don't worry . Just right click the response select Request in browser on the menu that pops up , in original session, copy the link and paste in your browser.)
 
 After doing all this we finally get to the dashboard
 
 ![8](<images/Pasted image 20251208184107.png>)
 
-and it says hey admin(wow).I'm admin.
+and it says *hey admin*. Wait , I'm admin.
 
 ![9](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOTFsdGQ3dnFyY2l0ZGhhM3FwNmE1dnUyenlob3N5c29uazhqZzNzcSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/UiBdsfS6RQU92/giphy.gif)
 
@@ -74,7 +73,7 @@ There is an Admin Panel button clicking it redirects us to another page.
 
 Same issue as earlier but no worries you already know what to do now.Just add the header to the request in burp.
 
-After all that we are in finally
+After all that we are in finally in(I think to myself)
 
 ![11](<images/Pasted image 20251208185100.png>)
 
@@ -238,7 +237,7 @@ Writeup by : [Shanks](http://github.com/shanksCx)
 
 [![X (formerly Twitter)](https://img.shields.io/badge/X-%23000000.svg?style=for-the-badge&logo=X&logoColor=white)](https://x.com/ShanksCx)
 
-@shankscx on Discord.
+Don't be shy and follow. Add me on discord if you want @shankscx.
 
 
 
