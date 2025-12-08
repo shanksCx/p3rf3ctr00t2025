@@ -213,7 +213,7 @@ We found The flag finally
 
 ![16](<images/Pasted image 20251208221751.png>)
 
-## It had only 42 solves😩.
+## **It had only 42 solves😌**.
 
 A perfect name — we chained:
 1. **SQL Injection** → admin login bypass
@@ -225,11 +225,10 @@ A perfect name — we chained:
 # Resources You can use
 * [EJS Docs](https://ejs.co/) 
 * [SSTI labs](https://portswigger.net/web-security/server-side-template-injection/)
-* [child_process.execSync](https://nodejs.org/api/child_process.html)
 * [Template Injection Table](https://cheatsheet.hackmanit.de/template-injection-table/)
 
 # ⭐Final Notes
-Thanks For reading. This was a fun challenge and it took quite a while to do due to trying different payloads and chaining the vulns.(which may not be clear since the writeup is short).But it was fun nonetheless.
+Thanks For reading. This was a fun challenge and it took quite a while to do due to trying different payloads and chaining the vulns.(which may not be clear since the writeup is short but I tried **ALOT** of payloads but i've listed only the ones that worked as a proof of concept).But it was fun nonetheless.
 
 ![](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbXc2c3d4MDV5MXBjbTQ1YWJhaGU1ZDVnNmN1b2l0Mmd6NjZheGQ5ciZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l1J3CbFgn5o7DGRuE/giphy.gif)
 
