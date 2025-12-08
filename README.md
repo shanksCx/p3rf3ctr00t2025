@@ -1,16 +1,17 @@
-# 🚩 My CTF Writeups
+# 🚩 p3rf3ctr00t ctf writeups
 
-Welcome to my portfolio of Capture The Flag (CTF) solutions. This repository serves as my knowledge base, documenting the techniques and tools I use to solve security challenges.
+I'll post writeups for all the challenges i did in p3rf3ctr00t2025 here. Follow if you want to.
 
 ## 🏆 Solved Challenges
 
 | Challenge Name | Category | Difficulty | Link |
 | :--- | :--- | :--- | :--- |
 | **Packet Whisperer** | Forensics | Easy | [Read Solution](./Packet%20Whisperer.md) |
-| *Coming Soon...* | *Web* | *...* | *...* |
+| **Secure Bank** | Web | Medium | [Read Solution](./SecureBank.md)  |
 
 ## 🛠️ Tools I Use
 * **Forensics:** Wireshark , Eric Zimmerman Tools
 * **Documentation:** Obsidian
 * **OS:** Windows
+* **Proxy:** Burpsuite
 
