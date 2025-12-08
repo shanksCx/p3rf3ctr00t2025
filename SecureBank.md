@@ -183,7 +183,7 @@ Why this works:
 
 - `execSync` runs a shell command and returns its output.    
 
-**Result:** listing showed `flag.txt` exists inside /srv.  # Bingo💥.
+**Result:** listing showed `flag.txt` exists inside `/srv`.**Bingo💥**.
 
 ![14](<images/annotely_image.png>)
 
@@ -238,7 +238,7 @@ Writeup by : [Shanks](http://github.com/shanksCx)
 
 [![X (formerly Twitter)](https://img.shields.io/badge/X-%23000000.svg?style=for-the-badge&logo=X&logoColor=white)](https://x.com/ShanksCx)
 
-[![Add me on Discord](https://img.shields.io/badge/Discord-Add%20Me-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white)] @shankscx
+@shankscx on Discord.
 
 
 
