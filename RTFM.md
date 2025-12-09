@@ -38,9 +38,9 @@ This is effectively the **entire backend** of the deployed challenge.
 From this point, the goal is to **read the backend logic and uncover hidden admin functionality**.
 
 The two most important elements:
-### ✔ `app.py` — main backend logic
+### ✔ `app.py` --> main backend logic
 
-### ✔ `users` — SQLite database storing accounts & roles
+### ✔ `users` --> SQLite database storing accounts & roles
 
 
 # 4. Source Code Analysis (RTFM)
