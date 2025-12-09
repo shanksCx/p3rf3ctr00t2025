@@ -137,7 +137,7 @@ Next: We verified the code execution by printing the Node version with a short p
 Result: `18.20.8` (this proved arbitrary server-side JS was being evaluated). The technique uses JavaScript’s `Function`/constructor ability: `this.constructor.constructor('return process')()` is essentially creating a new Function that returns `process`, giving us access to Node’s runtime.
 Why this works:
 
-- In EJS templates `this` refers to the template context object. `this.constructor` is `Function` (or something that can produce a Function). `this.constructor.constructor('...')()` creates a new function from source code and executes it in server context — giving access to Node `process`, `require`, etc.(In case you've forgotten , i told you this like 2 and a half scrolls back 🙃)
+- In EJS templates `this` refers to the template context object. `this.constructor` is `Function` (or something that can produce a Function). `this.constructor.constructor('...')()` creates a new function from source code and executes it in server context - giving access to Node `process`, `require`, etc.(In case you've forgotten , i told you this like 2 and a half scrolls back 🙃)
 # Step 4: Turn RCE into useful actions
 
 **Goal:** find the working directory and server entrypoint so we know where to look for files.
