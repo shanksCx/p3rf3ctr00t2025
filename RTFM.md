@@ -1,7 +1,7 @@
 # RTFM
 **Challenge Author:** f0rk3b0mb  
 **Category:** Web  
-**Files Provided:** `public.zip`
+**Files Provided:** `public.zip`  
 Solves: `78`
 # 1. Challenge Overview
 ![](<images/Pasted image 20251207202035.png>)
