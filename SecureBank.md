@@ -216,7 +216,7 @@ We found The flag finally
 
 ## **It had only 42 solves😌**.
 
-A perfect name — we chained:
+A perfect fitting name as we chained:
 1. **SQL Injection** → admin login bypass
 2. **JWT Header Injection** → authenticated dashboard
 3. **SSTI in EJS** → code execution
