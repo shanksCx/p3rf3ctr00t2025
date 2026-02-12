@@ -1,4 +1,4 @@
-I'm# Challenge Overview
+# Challenge Overview
 
 > _A shattered archive. A hidden secret. Reassemble the pieces._
 
