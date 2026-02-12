@@ -87,7 +87,7 @@ The **flag lives inside `/admin/dashboard`**, but access is restricted to admin 
 
 Trying to visit `/admin/dashboard` as a normal user yields:
 
-❌ **403 Access denied: Admin only**
+**403 Access denied: Admin only**
 
 ![](<images/Pasted image 20251209173731.png>)
 
@@ -142,7 +142,7 @@ def make_user_admin(username):
 
     return affected > 0
 ```
-### 🔥 _Critical flaw:_
+###  _Critical flaw:_
 
 - No authentication
 - No admin check
