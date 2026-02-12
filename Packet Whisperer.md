@@ -64,7 +64,7 @@ Once all fragments are collected, copy the entire contents of your text file int
 ![11](<images/Pasted image 20251207180056.png>)
 
 
-# The flag🎉: r00t{1ts_4lw4y5_DNS_r1ght}
+# The flag: r00t{1ts_4lw4y5_DNS_r1ght}
 
 ![12](<images/Pasted image 20251207181815.png>)
 
@@ -73,5 +73,5 @@ Once all fragments are collected, copy the entire contents of your text file int
 ## *This challenge demonstrates a  DFIR technique: **data exfiltration via DNS tunneling**, with payloads “shattered” into multiple fragments.*
 
 
-# **Thanks For Reading 🤩🤩**
+# **Thanks For Reading **
 ![13](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExYm5zZjEydDBhcHVrbjl1NnJsMmJpcW82dWIxd2J4Mjhid241ZG14ZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/i21tixUQEE7TEqwmYa/giphy.gif)
