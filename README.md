@@ -1,8 +1,8 @@
-# 🚩 p3rf3ctr00t ctf writeups
+#  p3rf3ctr00t ctf writeups
 
 I'll post writeups for all the challenges i did in p3rf3ctr00t2025 here. Follow if you want to.
 
-## 🏆 Solved Challenges
+##  Solved Challenges
 
 | Challenge Name | Category | Difficulty | Link |
 | :--- | :--- | :--- | :--- |
@@ -10,7 +10,7 @@ I'll post writeups for all the challenges i did in p3rf3ctr00t2025 here. Follow 
 | **Secure Bank** | Web | Medium | [Read Solution](./SecureBank.md)  |
 | **RTFM** | Web | Easy | [Read Solution](./RTFM.md)  |
 
-## 🛠️ Tools I Use
+##  Tools I Use
 * **Forensics:** Wireshark , Eric Zimmerman Tools
 * **Documentation:** Obsidian
 * **OS:** Windows
