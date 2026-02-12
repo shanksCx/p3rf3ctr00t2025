@@ -38,7 +38,7 @@ When we check burpsuite , we get
 
 ![5](<images/Pasted image 20251208183619.png>)
 
-A 403 error❌ -- meaning the login doesn't automatically attach a token to the users request when he's redirected to the dashboard.
+A 403 error -- meaning the login doesn't automatically attach a token to the users request when he's redirected to the dashboard.
 
 So i retrace my steps back to the login page and capture the token on burpsuite.
 
@@ -55,7 +55,7 @@ Lets include it on our previous request to /dashboard
 
 ![7](<images/Pasted image 20251208183703.png>)
 
- We get a 200 OK ☑️. 
+ We get a 200 OK . 
  
 Request the response to browser (for those who don't know how don't worry . Just right click the response select Request in browser on the menu that pops up , in original session, copy the link and paste in your browser.)
 
@@ -95,7 +95,7 @@ renders it italicised:
 
   ![12](<images/Pasted image 20251208185521.png>)
 
-## 📘 Quick EJS Basics
+## Quick EJS Basics
 
 For those new to EJS here is a little runthrough:
 
@@ -137,7 +137,7 @@ Next: We verified the code execution by printing the Node version with a short p
 Result: `18.20.8` (this proved arbitrary server-side JS was being evaluated). The technique uses JavaScript’s `Function`/constructor ability: `this.constructor.constructor('return process')()` is essentially creating a new Function that returns `process`, giving us access to Node’s runtime.
 Why this works:
 
-- In EJS templates `this` refers to the template context object. `this.constructor` is `Function` (or something that can produce a Function). `this.constructor.constructor('...')()` creates a new function from source code and executes it in server context - giving access to Node `process`, `require`, etc.(In case you've forgotten , i told you this like 2 and a half scrolls back 🙃)
+- In EJS templates `this` refers to the template context object. `this.constructor` is `Function` (or something that can produce a Function). `this.constructor.constructor('...')()` creates a new function from source code and executes it in server context - giving access to Node `process`, `require`, etc.(In case you've forgotten , i told you this like 2 and a half scrolls back )
 # Step 4: Turn RCE into useful actions
 
 **Goal:** find the working directory and server entrypoint so we know where to look for files.
@@ -183,7 +183,7 @@ Why this works:
 
 - `execSync` runs a shell command and returns its output.    
 
-**Result:** listing showed `flag.txt` exists inside `/srv`.**Bingo💥**.
+**Result:** listing showed `flag.txt` exists inside `/srv`.
 
 ![14](<images/annotely_image.png>)
 
@@ -208,13 +208,13 @@ Why this works:
 ![15](<images/Pasted image 20251208205638.png>)
 
 
-# 🎉 **Final Flag**
+#  **Final Flag**
 We found The flag finally
      ``r00t{ch41n1ng_vuln3r4b1l1t13s_l1k3_4_pr0_8f2a9c4e}``
 
 ![16](<images/Pasted image 20251208221751.png>)
 
-## **It had only 42 solves😌**.
+## **It had only 42 solves**.
 
 A perfect fitting name as we chained:
 1. **SQL Injection** → admin login bypass
@@ -228,7 +228,7 @@ A perfect fitting name as we chained:
 * [SSTI labs](https://portswigger.net/web-security/server-side-template-injection/)
 * [Template Injection Table](https://cheatsheet.hackmanit.de/template-injection-table/)
 
-# ⭐Final Notes
+# Final Notes
 Thanks For reading. This was a fun challenge and it took quite a while to do due to trying different payloads and chaining the vulns.(which may not be clear since the writeup is short but I tried many payloads, I've listed only the ones that worked as a proof of concept).But it was fun nonetheless.
 
 ![](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbXc2c3d4MDV5MXBjbTQ1YWJhaGU1ZDVnNmN1b2l0Mmd6NjZheGQ5ciZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l1J3CbFgn5o7DGRuE/giphy.gif)
